@@ -67,7 +67,7 @@ table(Patent_KR$ee_city)
 min(X$approval_time)
 #Ans. 1 year
 
-#7D How much is the highest approval of time
+#6D How much is the highest approval of time
 max(X$approval_time)
 #Ans. 6 years
 
