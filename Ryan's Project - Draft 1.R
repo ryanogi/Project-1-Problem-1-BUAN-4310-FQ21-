@@ -38,6 +38,6 @@ nrow(patents_jp)
 patents_jp$time_to_approval <- patents_jp$grantyear - 
   patents_jp$applyear
 
-patents_jp_aggregate <- aggregate(time_to_approval ~ ee_state,
+patents_jp_aggregate <- aggregate(time_to_approval ~ ee_city,
           data = patents_jp, 
           FUN = mean)
